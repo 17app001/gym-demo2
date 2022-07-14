@@ -5,28 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>健身網站</title>
+    <style>
+      body {
+        text-align: left;
+        background-color: rgb(250, 255, 230);
+        font-family: 標楷體, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      }
+      /* class區隔相同的標籤的設定 
+        .class名稱
+        rem 1rem==>16px(pixel) 
+      */
+      .title {
+        text-align: center;
+        background-color: #44516f;
+        color: white;
+        font-size: 32px;
+        height: 4rem;
+        line-height: 4rem;
+        border-radius: 0.3rem;
+        padding-left: 16px;
+      }
+
+      div {
+        margin-top: 6px;
+      }
+
+      .info1 {
+        background-color: cadetblue;
+        border-radius: 6px;
+        padding: 6px;
+      }
+
+      .sport {
+        font-size: 32px;
+        color: brown;
+      }
+    </style>
   </head>
 
   <body>
-    <h1>何謂健身?</h1>
-    <h3>
-      健身，英文稱為workout，健身這兩個字拆開來的意思就是健康身體，
-      通過各種運動方式或方法來增強力量、增加肌肉量、柔韌性、耐力，
-      以及提高協調和控制身體各部分的能力來使我們的身體更強健。
-    </h3>
-    <p>
-      除了塑造好身材，透過健身可以刺激我們身體的肌肉，
-      再搭配飲食的控制，這能大大幫助我們的肌肉量增加，
-      以及讓我們的肌肉更加的結實。
-    </p>
-    <p>
+    <div class="title">何謂健身?</div>
+    <div style="background-color: plum; padding: 12px">
+      <h3>
+        健身，英文稱為workout，健身這兩個字拆開來的意思就是健康身體，
+        通過各種運動方式或方法來增強力量、增加肌肉量、柔韌性、耐力，
+        以及提高協調和控制身體各部分的能力來使我們的身體更強健。
+      </h3>
+      <p style="color: rgb(53, 0, 103)">
+        除了塑造好身材，透過健身可以刺激我們身體的肌肉，
+        再搭配飲食的控制，這能大大幫助我們的肌肉量增加，
+        以及讓我們的肌肉更加的結實。
+      </p>
+    </div>
+    <p class="info1">
       <em>
         如果你對健身仍然保持著懷疑的態度，那你大可以去看看你喜歡的健身老戲骨幹，他們是如何做到年過50/60歲，依舊在
         舞臺上或者是電影螢幕上綻放光彩。
       </em>
-      <b>
-        <u>答案就是堅持<span>運動健身!</span></u>
-      </b>
+      <b> <u>答案就是堅持</u><br /><span class="sport">運動健身!</span> </b>
     </p>
 
     <img src="img/pic-1.jpg" alt="pic-1.jpg" width="32%" />
