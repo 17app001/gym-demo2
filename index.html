@@ -5,86 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>健身網站</title>
-    <style>
-      body {
-        text-align: center;
-        background-color: rgb(159, 159, 159);
-        font-family: 標楷體, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      }
-      /* class區隔相同的標籤的設定 
-        .class名稱
-        rem 1rem==>16px(pixel) 
-      */
-      .title {
-        text-align: center;
-        background-color: #44516f;
-        color: white;
-        font-size: 32px;
-        height: 4rem;
-        line-height: 4rem;
-        border-radius: 0.3rem;
-      }
-
-      div {
-        margin-top: 6px;
-      }
-
-      .info1 {
-        background-color: cadetblue;
-        border-radius: 6px;
-        padding: 6px;
-      }
-
-      .sport {
-        font-size: 32px;
-        color: brown;
-      }
-
-      .photo {
-        width: 28%;
-        margin-left: 6px;
-        background-color: rgb(255, 255, 255);
-        padding: 6px;
-        border-radius: 6px;
-      }
-
-      .sub-title {
-        text-align: left;
-        background-color: #44516f;
-        color: white;
-        font-size: 24px;
-        height: 3rem;
-        line-height: 3rem;
-        border-radius: 0.3rem;
-        padding-left: 16px;
-      }
-
-      #container {
-        width: 80%;
-        margin: 16px auto;
-      }
-
-      .info2 {
-        list-style: none;
-        padding: 12px;
-        background-color: rgb(2, 73, 204);
-        border-radius: 6px;
-      }
-
-      .info2 a {
-        color: white;
-        text-decoration: none;
-      }
-
-      li {
-        font-size: 1.2rem;
-      }
-
-      #bmi-table {
-        width: 100%;
-        margin: 1rem auto;
-      }
-    </style>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
 
   <body>
@@ -194,19 +115,19 @@
         </thead>
         <tbody>
           <tr>
-            <th>輕度工作</th>
+            <td>輕度工作</th>
             <td>35大卡 X 目前體重（公斤）</td>
             <td>30大卡 X 目前體重（公斤）</td>
             <td>20~25大卡 X 目前體重（公斤）</td>
           </tr>
           <tr>
-            <th>中度工作</th>
+            <td>中度工作</th>
             <td>40大卡 X 目前體重（公斤）</td>
             <td>35大卡 X 目前體重（公斤）</td>
             <td>30大卡 X 目前體重（公斤）</td>
           </tr>
           <tr>
-            <th>重度工作</th>
+            <td>重度工作</th>
             <td>45大卡 X 目前體重（公斤）</td>
             <td>40大卡 X 目前體重（公斤）</td>
             <td>35大卡 X 目前體重（公斤）</td>
@@ -214,14 +135,17 @@
         </tbody>
       </table>
 
+     
+      <div class="info3">
       <a href="bmi.html" target="_blank"> <b>計算BMI:&nbsp;&nbsp;</b></a>
       一位民眾身高160公分，體重65公斤，BMI25.4kg/m2(=65÷1.6÷1.6)，體重屬於「過重」。<br />
       <b>計算所需熱量:&nbsp;&nbsp;</b>
       因他的工作為坐辦公室，屬輕量工作，每天攝取熱量應在1300至1625大卡之間(=20~25大卡*65公斤)。
-
+    </div>
       <hr />
 
-      <div class="sub-title">健身影片</div>
+    <div class="sub-title">健身影片</div>
+    <div class="video">
       <iframe
         width="45%"
         height="380"
@@ -241,17 +165,17 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-      <hr />
-      <p>
+    
+      <div class="info4">     
         <b>需要更多資訊?免費索取健身資訊></b> <br />
-        前100名還贈送［我愛健身］書籍一本!
-      </p>
+        前100名還贈送<span class="gym-text">［我愛健身］</span>書籍一本!
+      </div>
       <form action="">
         <label for="email">EMAIL:</label>
         <input type="email" name="email" id="email" /><br />
         <p>
           您的寶貴意見<br />
-          <textarea name="comment" id="comment" cols="30" rows="15"></textarea>
+          <textarea name="comment" id="comment" cols="20" rows="10"></textarea>
         </p>
         <button type="submit">提交</button>
       </form>

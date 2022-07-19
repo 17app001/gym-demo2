@@ -1,0 +1,165 @@
+body {
+  text-align: center;
+  background-color: #fefbf6;
+  font-family: 標楷體, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+/* class區隔相同的標籤的設定 
+  .class名稱
+  rem 1rem==>16px(pixel) 
+*/
+.title {
+  text-align: center;
+  background-color: #3d3c42;
+  color: white;
+  font-size: 32px;
+  height: 4rem;
+  line-height: 4rem;
+  border-radius: 0.3rem;
+}
+
+div {
+  margin-top: 6px;
+}
+
+.info1 {
+  background-color: cadetblue;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.sport {
+  font-size: 32px;
+  color: brown;
+}
+
+.photo {
+  width: 30%;
+  margin-left: 0px;
+  background-color: #a6d1e6;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.sub-title {
+  width: 60%;
+  display: inline-block;
+  padding: 0px 16px;
+  text-align: center;
+  background-color: #7f5283;
+  color: white;
+  font-size: 24px;
+  height: 3rem;
+  line-height: 3rem;
+  border-radius: 0.3rem;
+  padding-left: 16px;
+}
+
+#container {
+  width: 90%;
+  margin: 16px auto;
+}
+
+.info2 {
+  list-style: none;
+  padding: 12px;
+  background-color: rgb(2, 73, 204);
+  border-radius: 6px;
+  text-align: left;
+}
+
+.info2 a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+#bmi-table {
+  width: 90%;
+  margin: 1rem auto;
+  height: 300px;
+}
+
+#bmi-table th {
+  background-color: #4f5ee8;
+  color: white;
+}
+
+tr {
+  background-color: burlywood;
+  font-size: 16px;
+}
+
+td:first-child {
+  background-color: #a6d1e6;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+td:nth-child(3) {
+  background-color: #a6d1e6;
+}
+
+td:nth-child(even) {
+  background-color: aquamarine;
+}
+
+.info3 {
+  text-align: left;
+  padding: 3px;
+  border: #3d3c42 2px dotted;
+}
+
+.info3 b {
+  background-color: orange;
+  padding: 6px;
+  border-radius: 3px;
+  line-height: 32px;
+}
+
+.info4 {
+  font-size: 20px;
+}
+
+.video {
+  margin-top: 16px;
+  background-color: #a6d1e6;
+  padding: 16px 0px;
+  border-radius: 6px;
+}
+
+form {
+  width: 80%;
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: coral;
+}
+
+form,
+input,
+textarea,
+button {
+  font-size: 24px;
+  margin-top: 12px;
+}
+
+input {
+  text-align: center;
+}
+
+textarea {
+  width: 90%;
+}
+
+button {
+  background-color: aqua;
+  padding: 8px 12px;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.gym-text {
+  background-color: chartreuse;
+}
